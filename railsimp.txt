@@ -1,0 +1,8 @@
+1.rails new musicblog
+2.cd musicblog
+3.rails g controller tune add edit view delete show
+4.rails g model Company(SingerID:Integer,CompanyName:String)
+5.rails g model Singer(CompanyID:Integer,SingerName:String,LyricsWriter:String,MusicDirector String)
+ 6 rails c
+7 company=Company.create(SingerID:1,CompanyName:"tips")
+8.singer=Singer.create(CompanyID :1,SingerName:"Pankaj",LyricsWriter:"Pankaj",MusicDirector:"Bhappi")
